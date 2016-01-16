@@ -11,6 +11,10 @@ int main() {
 		good[i] = true;
 		string firstname = first[i];
 		string secondname = second[i];
+		if (firstname.compare(secondname) == 0) {
+			cout << "bad";
+			return 0;
+		}
 		for (int j = 0; j < N; j++) {
 			bool inverseoffirst = false;
 			bool inverseofsecond = false;

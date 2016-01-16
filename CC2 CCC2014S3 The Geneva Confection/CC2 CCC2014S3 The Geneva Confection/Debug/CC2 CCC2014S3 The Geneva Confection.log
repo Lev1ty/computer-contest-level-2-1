@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\adam yu\documents\github\cc2-q1\cc2 ccc2014s3 the geneva confection\cc2 ccc2014s3 the geneva confection\source.cpp(7): warning C4005: 'debug': macro redefinition
+  c:\users\adam yu\documents\github\cc2-q1\cc2 ccc2014s3 the geneva confection\cc2 ccc2014s3 the geneva confection\source.cpp(4): note: see previous definition of 'debug'
+  CC2 CCC2014S3 The Geneva Confection.vcxproj -> C:\Users\Adam Yu\Documents\GitHub\CC2-Q1\CC2 CCC2014S3 The Geneva Confection\Debug\CC2 CCC2014S3 The Geneva Confection.exe
