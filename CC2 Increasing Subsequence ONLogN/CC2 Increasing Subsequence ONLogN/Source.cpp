@@ -15,17 +15,23 @@ vec:
 #include<algorithm>
 using namespace std;
 #define debug(x) /*x*/
+//#define debugmode
 #ifdef debugmode
 #define debug(x) x
 #endif
 int s;
-vector<int> v1;
+vector<int> v1, v2;
 int main() {
-	cin >> s;
-	v1.reserve(s + 1);
-	v1.push_back(0);
-	for (int i = 0, j; i < s; i++) {
-		cin >> j;
-		v1.push_back(j);
+	cin >> s; 
+	v1.resize(s);
+	for_each(v1.begin(), v1.end(), [](int&i) {cin >> i;});
+	v2.reserve(s);
+	for (int&it : v1) {
+		if (it > (v2.size() == 0 ? 0 : v2.back())) v2.push_back(it);
+		else *upper_bound(v2.begin(), v2.end(), it) = it;
+		debug(for_each(v2.begin(), v2.end(), [](int&i) {cout << i << ' ';}); cout << endl;)
 	}
+	debug(for_each(v1.begin(), v1.end(), [](int&i) {cout << i << ' ';}); cout << endl;)
+		debug(for_each(v2.begin(), v2.end(), [](int&i) {cout << i << ' ';}); cout << endl;)
+		cout << v2.size() << endl;
 }

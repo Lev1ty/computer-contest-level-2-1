@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\adam yu\documents\github\cc2-q1\cc2 increasing subsequence onlogn\cc2 increasing subsequence onlogn\source.cpp(20): warning C4005: 'debug': macro redefinition
+  c:\users\adam yu\documents\github\cc2-q1\cc2 increasing subsequence onlogn\cc2 increasing subsequence onlogn\source.cpp(17): note: see previous definition of 'debug'
+  CC2 Increasing Subsequence ONLogN.vcxproj -> C:\Users\Adam Yu\Documents\GitHub\CC2-Q1\CC2 Increasing Subsequence ONLogN\Debug\CC2 Increasing Subsequence ONLogN.exe
