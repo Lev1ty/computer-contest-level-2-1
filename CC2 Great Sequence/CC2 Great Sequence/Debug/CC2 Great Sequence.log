@@ -1,0 +1,8 @@
+﻿  Source.cpp
+c:\users\adam yu\documents\github\cc2-q1\cc2 great sequence\cc2 great sequence\source.cpp(8): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\users\adam yu\documents\github\cc2-q1\cc2 great sequence\cc2 great sequence\source.cpp(9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+c:\users\adam yu\documents\github\cc2-q1\cc2 great sequence\cc2 great sequence\source.cpp(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+  CC2 Great Sequence.vcxproj -> C:\Users\Adam Yu\Documents\GitHub\CC2-Q1\CC2 Great Sequence\Debug\CC2 Great Sequence.exe
